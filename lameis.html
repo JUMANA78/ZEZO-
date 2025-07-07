@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: #fff7f0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+        }
+
+        header {
+            background-color: #fa709a; /* وردي غامق */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #nav {
+            background-color: #ffb347; /* برتقالي مشمشي */
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        #nav a {
+            color: white;
+            font-size: 18px;
+            margin: 15px;
+            text-decoration: none;
+        }
+
+        #main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1200px;
+        }
+
+        #introduction, #activitySection, #skillsSection, #contactSection {
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(250, 112, 154, 0.2);
+        }
+
+        #introduction h2, #activitySection h2, #skillsSection h2, #contactSection h2 {
+            text-align: center;
+            font-size: 24px;
+            color: #e75480; /* وردي ملفت */
+        }
+
+        #introduction img {
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+
+        #introduction p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        #skillsSection table {
+            width: 100%;
+        }
+
+        #skillsSection th, #skillsSection td {
+            border: 1px solid #fa709a;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #skillsSection th {
+            background-color: #e75480;
+            color: white;
+        }
+
+        #contactSection label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        #contactSection input, #contactSection textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #fa709a;
+            border-radius: 5px;
+        }
+
+        #contactSection button {
+            display: block;
+            margin: auto;
+            background-color: #e75480;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        }
+
+        footer {
+            background-color: #e75480;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌸 Welcome to My Portfolio 🌸</h1>
+    </header>
+
+    <nav id="nav">
+        <a href="#introduction">About Me</a>
+        <a href="#activitySection">Activities</a>
+        <a href="#skillsSection">Skills</a>
+        <a href="#contactSection">Contact</a>
+    </nav>
+
+    <main id="main">
+        <section id="introduction">
+            <h2>About Me</h2>
+      <img src="c:\Users\mh_an\Downloads\WhatsApp Image 2025-07-03 at 18.23.39_cd40c8f4.jpg">
+     <width="200" height="100" alt="Lana's photo">
+            <p>I'm Jumana, a passionate learner with a love for elegance and creativity.</p>
+        </section>
+
+        <section id="activitySection">
+            <h2>Favorite Activities</h2>
+            <ul>
+                <li>Playing Piano</li>
+                <li>Writing Poetry</li>
+                <li>Stargazing</li>
+            </ul>
+        </section>
+
+        <section id="skillsSection">
+            <h2>My Skills</h2>
+            <table>
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>Piano</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>Poetry Writing</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Astronomy Knowledge</td>
+                    <td>Beginner</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contactSection">
+            <h2>Contact Me</h2>
+            <div>
+                <label>Name: </label>
+                <input type="text" placeholder="Enter your name">
+                <label>Email: </label>
+                <input type="email" placeholder="Enter your email">
+                <label>Message: </label>
+                <textarea rows="4" placeholder="Write your message here..."></textarea>
+                <button type="button">Send</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 By Jumana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
